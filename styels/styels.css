@@ -1,8 +1,10 @@
 body,p,span{font-family: 'Open Sans', sans-serif;}
-*{padding: 0; margin: 0;}
+/* *{padding: 0; margin: 0;} */
 .text-primary{color:#FD6E0A;}
 
-nav{display: flex;}
+nav{
+    display: flex;padding-left: 150px;
+}
 .nav-tyttle{
     color: #181818;
     font-size: 45px;
@@ -36,4 +38,41 @@ nav ul li a{
     color: white;
     border: 0;
     padding: 15px 30px;
+}
+/* banner section */
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner img{width: 500px;}
+/* .d-con{
+    align-items: center;
+    margin-top: 130px;
+} */
+.header{
+    background-color: #FFF8F3;
+    background: url(../images/header_bg.png) no-repeat;
+    background-position: bottom right;
+   
+}
+.banner-h5{
+    font-size: 45px;    
+    font-weight: 600;
+    line-height: normal;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-h1{
+    font-size: 85px;
+    font-weight: 700;
+    line-height: normal;
+    color: #181818;
+    margin-top: 5px;
+}
+.banner-p{
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
 }
