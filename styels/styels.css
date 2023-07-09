@@ -76,3 +76,42 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px;
 }
+/* About section */
+.razu{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section-div{
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 80px;
+    margin-top: 130px;
+   
+}
+.sc-about{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.sc-text{
+    color: #757575;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center
+}
+.about-info-content{
+    display: flex;
+    margin-top: 5px;
+    justify-content:space-around;
+}
+.about-info-content .about-into{
+    justify-content:space-around;
+    box-sizing: border-box;
+    text-align: center;
+    
+} 
+
