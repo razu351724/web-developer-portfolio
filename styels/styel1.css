@@ -1,0 +1,102 @@
+.top-section{
+    background-image: url('../new-year-new-me/images/banner/banner1.png');
+    width: auto;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -10px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+ .back-img{    
+   
+    width: 525px;   
+    padding-top: 200px;
+    padding-right: 200px;
+ }
+  .back-img h1{
+color:#151414;
+text-align: right;
+font-size: 65px;
+font-weight: 700;
+ } 
+ .back-img p{
+    color:#444343;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+ }
+ .back-img .back-content-btn button{
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border: none;
+    display:inline;
+
+
+}
+.back-content-btn {text-align: right;}
+/* banner section */
+.anner-section{
+    background-image: url('../new-year-new-me/images/person.png') ;
+    height: 700px;
+    width:auto;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: end;
+    padding-right: 300px;
+    padding-top: 200px;
+} 
+
+.banner-right h1{
+    color:#151414;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.banner-right p{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+.banner-right ul li{
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+    margin-top: 8px;
+
+}
+.banner-left img{
+    background-color: #F15B2233;
+    width: 451px;
+    height: 451px;
+    border-radius: 90%;
+}
+/* my plans section */
+.my-plans h1{
+    text-align: center;
+    margin-bottom: 87px; 
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.div-content{
+    display: flex;
+    justify-content:space-around;
+}
+.div-content h3{
+color:#151414;
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 5px;
+
+}
+  
